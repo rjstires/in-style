@@ -1,0 +1,27 @@
+{
+  "name": "in-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest lib/",
+    "build": "babel lib/ --out-dir build/",
+    "clean": "rm -rf build/"
+  },
+  "author": "Robert Stires <rjstires@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "7",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.0",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "monet": "^0.8.10"
+  }
+}
